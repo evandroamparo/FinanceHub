@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
   <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    <Frame Name="mainPageFrame" />
   </Grid>
   <!--Bottom Application bar-->
   <Page.BottomAppBar>

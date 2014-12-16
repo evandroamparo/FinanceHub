@@ -22,6 +22,14 @@ namespace FinanceHub.View
   /// </summary>
   public sealed partial class MainPage : Page
   {
+    public Frame AppFrame
+    {
+      get
+      {
+        return this.mainPageFrame;
+      }
+    }
+
     public MainPage()
     {
       this.InitializeComponent();
@@ -34,7 +42,7 @@ namespace FinanceHub.View
 
     private void RemoveStock(object sender, RoutedEventArgs e)
     {
-      
+
     }
   }
 }
