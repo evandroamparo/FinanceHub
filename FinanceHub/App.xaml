@@ -5,6 +5,7 @@
     xmlns:local="using:FinanceHub">
   <Application.Resources>
     <ResourceDictionary>
+      <x:String x:Key="AppName">My Application</x:String>
       <ResourceDictionary.MergedDictionaries>
         <!-- 
             Styles that define common aspects of the platform look and feel
